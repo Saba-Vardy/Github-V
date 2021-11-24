@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.bg{
+    background-image: url(../images/header-image.jpg);
+    width: 100%;
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size:cover 
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;  
+}
+.nav-li {
+    display: inline-block;
+    margin: 20px 30px;
+}
+.nav-words {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    transition: 0.5s;
+
+}
+/* .nav-words:hover {
+    color: #5863F8;
+} */
+.nav-words::before {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color:#5863F8;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.nav-words:hover::before{
+    width: 100%;
+    color: #5863F8;
+}
+.zetta {
+    margin-left: 139px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+.aboutus {
+    max-width: 195px;
+    width: 100%;
+    margin-left: 139px;
+    font-size: 44px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 900;  
+}
+.home-about {
+    display: flex;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.home {
+    font-size: 14px;
+    font-weight: 300;
+}
+.us {
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 31px;
+}
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.texts {
+    max-width: 444px;
+    width: 100%;
+}
+.text-h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #5863F8;
+    font-weight: 700;
+}
+.text-h1 {
+    font-size: 42px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    line-height: 56px;
+}
+.h1 {
+    display: block;
+}
+.p1 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    
+    line-height: 25px;
+}
+.p2 {
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-top: 5px;
+}
+.readmore {
+    max-width: 184px;
+    width: 100%;
+    height: 50px;
+    background-color: #5863F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 16px;
+}
+.suratebi {
+    max-width: 536px;
+    width: 100%;
+    margin-top: 90px;
+}
+.meore {
+    margin-left: 11px;
+}
+.mesame{
+    margin-top: 16px;
+}
+.surati {
+    transition: 0.5s;
+}
+.surati:hover {
+    transform: scale(1.2);
+       
+}
+.bg2 {
+    background-image: url(../images/Group\ 13.png);
+    width: 100%;
+    height: 612px;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    position: relative;
+    margin-top: 90px;
+}
+.bg2-sataurebi {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 139px;
+    font-family: 'Poppins', sans-serif;
+}
+.bg2-h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5863F8 ;
+}
+.bg2-h2 {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 56px;
+    max-width: 376px;
+    width: 100%;
+    color: #fff;
+}
+.blockebi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.block {
+    max-width: 260px;
+    width: 100%;
+    height: 260px;
+    background-color: #fff;
+    margin-left: 16px;
+    margin-top: 262px;
+    justify-content: center;
+    text-align: center;
+}
+.hotel-circle {
+    background-color: #5863F8;
+    border-radius: 90%;
+    width: 59px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px auto 15px auto;
+}
+.block-h2 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+    line-height: 27px;
+    max-width: 188px;
+    width: 100%;
+}
+.block-p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 21px;
+    max-width: 221px;
+    width: 100%;
+}
