@@ -9,10 +9,18 @@
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 20px 0px;  
+    justify-content: space-between;
+    
+}
+.burger-icon{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: none;
 }
 .nav-li {
+    
     display: inline-block;
     margin: 20px 30px;
 }
@@ -21,7 +29,9 @@
     font-family: 'Oswald', sans-serif;
     position: relative;
     transition: 0.5s;
-
+}
+.active {
+    color: #5863F8;
 }
 /* .nav-words:hover {
     color: #5863F8;
@@ -55,11 +65,19 @@
     font-family: 'Oswald', sans-serif;
     color: white;
     font-weight: 900;  
+   
+}
+.xazi {
+    width: 1px;
+    height: 19px;
+    background-color: white;
+    margin-left: 16px;
 }
 .home-about {
     display: flex;
     margin-top: 14px;
     cursor: pointer;
+    
 }
 .home {
     font-size: 14px;
@@ -68,7 +86,8 @@
 .us {
     font-size: 14px;
     font-weight: 300;
-    margin-left: 31px;
+    margin-left: 16px;
+    
 }
 .sec1 {
     display: flex;
@@ -127,18 +146,25 @@
     width: 100%;
     margin-top: 90px;
 }
+.pirveli {
+    max-width: 260px;
+    width: 100%;
+}
 .meore {
+    max-width: 260px;
+    width: 100%;
     margin-left: 11px;
 }
 .mesame{
+    max-width: 536px;
+    width: 100%;
     margin-top: 16px;
 }
 .surati {
     transition: 0.5s;
 }
 .surati:hover {
-    transform: scale(1.2);
-       
+    transform: scale(1.2);    
 }
 .bg2 {
     background-image: url(../images/Group\ 13.png);
@@ -176,6 +202,7 @@
     align-items: center;
     flex-wrap: wrap;
     
+    
 }
 .block {
     max-width: 260px;
@@ -186,6 +213,7 @@
     margin-top: 262px;
     justify-content: center;
     text-align: center;
+    
 }
 .hotel-circle {
     background-color: #5863F8;
@@ -220,3 +248,97 @@
     max-width: 221px;
     width: 100%;
 }
+
+
+/* რესპონსივი */
+@media  (max-width: 1120px) {
+    .bg2 {
+        height: 100%;
+    }
+    .block:nth-child(4) {
+        margin-top: 10px;
+    }
+    .bg {
+        background-position: right;
+    }
+  }
+  @media  (max-width: 1000px) {
+        .sec1 {
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .readmore {
+            margin: auto;
+            margin-top: 5px;
+        }
+        .texts {
+            text-align: center;
+        }
+        .suratebi {
+            margin-top: 20px;
+        }
+        .bg {
+            background-position: right;
+        }
+        .nav {
+            flex-direction: column;
+        }
+        .zetta {
+            margin: auto;
+        }
+  } 
+  @media  (max-width: 844px) {
+    .block:nth-child(3) {
+        margin-top: 10px;  
+    }   
+  }
+  @media (max-width:700px) {
+      .nav-li {
+          display: none;
+      }
+      .zetta {
+          margin-left: 25px;
+      }
+      .aboutus {
+          margin-left: 25px;
+          margin-top: 50px;
+      }
+      .bg {
+          background-position: center;
+      }
+      .nav {
+          flex-direction: row;
+      }
+      .burger-icon {
+          display: flex;
+          margin-right: 20px; 
+      }
+  }
+  @media (max-width:551px) {
+      .block:nth-child(2) {
+          margin-top: 10px;
+      }
+      .bg2-sataurebi {
+          margin-left: 10px;
+      }
+      .surati:hover {
+          transform: scale(1);
+      }
+      .meore {
+        margin-left: 130px;
+    }
+  }
+  @media (max-width:407px) {
+      .meore {
+          margin: auto;
+      }
+      .bg2-h2 {
+          font-size: 30px;
+      }
+      .blockebi {
+          margin-right: 20px;
+      }
+      
+  }
+
+ 
